@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lango Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+      color: #1c1c1e;
+      background: #fff;
+    }
+    h1 { line-height: 1.2; }
+    h2 { margin-top: 2em; line-height: 1.3; }
+    a { color: #0a64d8; }
+    @media (prefers-color-scheme: dark) {
+      body { color: #f2f2f7; background: #1c1c1e; }
+      a { color: #64b5ff; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Lango Privacy Policy</h1>
+  <p>Last updated: September 30, 2026</p>
+
+  <p>Lango is a virtual pet app. This policy explains what information the app stores and how it is handled.</p>
+
+  <h2>Information stored on your device</h2>
+  <p>Lango stores your pet's name, companion choice, care and growth state, and related timestamps on your device. The interaction journal can contain whispers you write and the companion's preset replies, two-choice decisions, daily fortune results, and optional mood tags. Lango does not require a developer-operated account.</p>
+  <p>The app stores its local records in its iOS app data. These records are not excluded from device backups, so Apple may include them in a backup according to your backup settings. Apple operates and controls its backup services.</p>
+
+  <h2>iCloud and CloudKit</h2>
+  <p>When iCloud, the app's CloudKit entitlement, and the device environment are available, Lango can sync a pet snapshot with the private CloudKit database associated with your iCloud account. The snapshot includes pet details and care and growth state. Lango does not include journal entries, including whispers, in this CloudKit snapshot. Apple processes iCloud data under Apple's own terms and privacy policy.</p>
+
+  <h2>Optional whisper encryption</h2>
+  <p>Whisper encryption is optional and is off by default. When enabled, the whisper text and preset reply are encrypted on your device before they are saved. Journal metadata, such as the entry date and optional mood tag, is stored separately. The encryption key and a salted PIN verifier are stored in the device Keychain; the PIN is not stored as plain text. The key is device-only and does not sync between devices. This feature protects local content and is not an account or identity-authentication service. If the key becomes unavailable, the encrypted whispers cannot be recovered. The reset flow removes protected whisper history. Face ID may be offered for convenience when supported by your device.</p>
+
+  <h2>Notifications</h2>
+  <p>When care reminders are enabled, Lango schedules local notifications on your device. A reminder may include your pet's name. Lango requests notification permission when reminders are enabled. You can turn reminders off in the app or manage notification permissions in iOS Settings.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>Use the in-app Delete Pet flow to remove the local pet and journal records. When CloudKit is available, Lango also requests deletion of the pet snapshot; the request is asynchronous and may not complete while iCloud is unavailable. Lango does not control copies that may remain in Apple-managed device backups. You can manage iCloud data and backups through your Apple account settings.</p>
+
+  <h2>Third-party services</h2>
+  <p>Lango does not operate a separate account, advertising, or analytics backend. The app does not include third-party advertising or analytics SDKs. Apple processes data as needed for iCloud/CloudKit and device backups as described above. iOS schedules local notifications on your device; Lango does not send notification content to a Lango-operated server. Lango does not sell or rent the information described in this policy.</p>
+
+  <h2>Contact</h2>
+  <p>For privacy or support questions, email <a href="mailto:futs0420@gmail.com">futs0420@gmail.com</a>. Please do not send your privacy PIN or private journal entries.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be published on this page with a new update date.</p>
+</body>
+</html>
